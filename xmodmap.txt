@@ -1,0 +1,6 @@
+Source link: http://irmantas.com/2014/12/14/swap-ctrl-and-super-keys-on-linux/
+
+remove mod4 = Super_L
+add control = Super_L
+remove control = Control_L
+add mod4 = Control_L
