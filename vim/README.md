@@ -12,7 +12,7 @@ Plugin 'vim-airline'               " show beautiful airline</br>
 Plugin 'morhetz/gruvbox'           " vim theme gruvbox</br>
 Plugin 'scrooloose/syntastic' "syntax checker</br>
 Plugin 'Chiel92/vim-autoformat'</br>
-Plugin 'Valloric/YouCompleteMe</br> https://github.com/ycm-core/YouCompleteMe
+Plugin 'Valloric/YouCompleteMe  https://github.com/ycm-core/YouCompleteMe</br>
 Plugin 'rdnetto/YCM-Generator', { 'branch': 'stable'}</br>
 Plugin 'davidhalter/jedi-vim'      " autocompletion for python</br>
 Plugin 'vim-scripts/L9'            " basic plugin</br>
