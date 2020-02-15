@@ -1,9 +1,6 @@
 ## Vim을 IDE처럼 사용하기
 https://blog.b1ue.sh/vim-ide/
 
-## ls 명령어 결과 색상 변경하기
-https://jongmin92.github.io/2016/12/13/Linux%20&%20Ubuntu/ls-result-color-change/
-
 ## vim plugin
 Plugin 'VundleVim/Vundle.vim'      " plugin installer package</br>
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
