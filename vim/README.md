@@ -6,6 +6,7 @@ https://jongmin92.github.io/2016/12/13/Linux%20&%20Ubuntu/ls-result-color-change
 
 ## vim plugin
 Plugin 'VundleVim/Vundle.vim'      " plugin installer package
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Plugin 'scrooloose/nerdtree'       " show filelist</br>
 Plugin 'vim-airline'               " show beautiful airline</br>
