@@ -1,3 +1,6 @@
+ls 명령어 결과 색상 변경하기
+https://jongmin92.github.io/2016/12/13/Linux%20&%20Ubuntu/ls-result-color-change/
+
 export CLICOLOR=1
 export LSCOLORS=DxFxCxGxBxegedabagaced
 export PS1="\e[0;32m\u\e[m::\e[0;33m\W\$\e[m "
