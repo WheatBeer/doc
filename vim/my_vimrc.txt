@@ -39,6 +39,7 @@ nmap <LEADER>T :enew<CR>
 nmap <LEADER>l :bnext<CR>
 nmap <LEADER>h :bprevious<CR>
 nmap <LEADER>bq :bp <BAR> bd #<CR>
+nmap <LEADER>b :vert sb #<CR>
 let g:airline_theme = 'bubblegum'
 if !exists('g:airline_symbols')
 	let g:airline_symbols = {}
