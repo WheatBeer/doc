@@ -23,6 +23,7 @@ nmap <LEADER>nt <ESC>:NERDTree<CR>
 let g:airline#extensions#tabline#enabled = 1		" show buffer list
 let g:airline#extensions#tabline#fnamemod = ':t'	" show only filename
 let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#left_sep = '|'
 let g:airline#extensions#tabline#buffer_idx_mode = 1
   nmap <leader>1 <Plug>AirlineSelectTab1
   nmap <leader>2 <Plug>AirlineSelectTab2
@@ -42,6 +43,7 @@ let g:airline_theme = 'bubblegum'
 if !exists('g:airline_symbols')
 	let g:airline_symbols = {}
 endif
+
 " unicode symbols
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
