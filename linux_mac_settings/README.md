@@ -3,7 +3,7 @@
 * .ycm_extra_conf.py 설정</br>
 : https://neverapple88.tistory.com/26 (Korean)</br> 
  & https://programmer.group/installation-of-vim-plug-in-youcompleteme-for-mac.html (English)
-* .vimrc examples
+* .vimrc examples</br>
 : https://xevolts.tistory.com/19 </br>
 https://code4rain.wordpress.com/2015/03/02/vi%EC%84%A4%EC%A0%95vimrc/
 ~~~
