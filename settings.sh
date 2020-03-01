@@ -25,7 +25,7 @@ if [[ $os = 'linux' ]]; then
 		cat ~/.vimrc > ./linux_mac_settings/vim/my_vimrc.txt;
 		cat ~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py > ./linux_mac_settings/vim/linux_ycm_extra_conf.py; 
 		git add .;
-		git commit -m 'upload vim settings';
+		git commit -m 'upload settings';
 		git push origin master
 	# download
 	elif [[ $set = 'down' ]]; then
@@ -41,7 +41,7 @@ elif [[ $os = 'mac' ]]; then
 		cat ~/.vimrc > ./linux_mac_settings/vim/my_vimrc.txt;
 		cat ~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py > ./linux_mac_settings/vim/mac_ycm_extra_conf.py; 
 		git add .;
-		git commit -m 'upload vim settings';
+		git commit -m 'upload settings';
 		git push origin master
 	# download
 	elif [[ $ud = 'down' ]]; then
