@@ -19,18 +19,17 @@ if [[ $os != 'linux' && $os != 'mac' ]]; then
 fi
 
 if [[ $os = 'linux' ]]; then
-	$set=$1; shift
+	ud=$1; shift
 	# upload
-	if [[ $set = 'up' ]]; then
+	if [[ $ud = 'up' ]]; then
 		cat ~/.vimrc > ./linux_mac_settings/vim/my_vimrc.txt;
 		cat ~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py > ./linux_mac_settings/vim/linux_ycm_extra_conf.py; 
 		git add .;
 		git commit -m 'upload settings';
 		git push origin master
 	# download
-	elif [[ $set = 'down' ]]; then
-		git pull origin master
-		eval cat ./linux_mac_settings/vim/my_vimrc.txt > ~/.vimrc
+	elif [[ $ud = 'down' ]]; then
+		cat ./linux_mac_settings/vim/my_vimrc.txt > ~/.vimrc
 	else
 		print_help
 	fi
@@ -45,8 +44,7 @@ elif [[ $os = 'mac' ]]; then
 		git push origin master
 	# download
 	elif [[ $ud = 'down' ]]; then
-		git pull origin master
-		eval cat ./linux_mac_settings/vim/my_vimrc.txt > ~/.vimrc
+		cat ./linux_mac_settings/vim/my_vimrc.txt > ~/.vimrc
 	else
 		print_help
 	fi
