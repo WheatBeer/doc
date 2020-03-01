@@ -3,6 +3,9 @@
 * .ycm_extra_conf.py 설정</br>
 : https://neverapple88.tistory.com/26 (Korean)</br> 
  & https://programmer.group/installation-of-vim-plug-in-youcompleteme-for-mac.html (English)
+* .vimrc examples
+: https://xevolts.tistory.com/19 </br>
+https://code4rain.wordpress.com/2015/03/02/vi%EC%84%A4%EC%A0%95vimrc/
 ~~~
 $ echo | gcc -std=c++11 -v -E -x c++ -      " gcc를 사용할 경우
 $ echo | clang -std=c++11 -stdlib=libc++ -v -E -x c++ -      "clang을 사용할 경우
