@@ -4,13 +4,13 @@ documents to set environment
 ## Linux Console Shortcuts
 - Tab - 자동 완성
 - Ctrl-D - 로그아웃
-- trl-R - 히스토리 찾기
+- Ctrl-R - 히스토리 찾기
 - Ctrl-S - 키보드 잠그기
 - Ctrl-Q - 잠긴 키보드 풀기
 - Ctrl-M - Enter
 - Ctrl-P - 이전 명령어 (Up)
 - Ctrl-N - 다음 명령어 (Down)
-- Ctrl-I - 화면 지우기 (clear)
+- Ctrl-L - 화면 지우기 (clear)
 - Ctrl-Y - 버퍼의 내용 붙여넣기
 - Ctrl-A - 입력 라인의 처음으로 이동 (Home)
 - Ctrl-E - 입력 라인의 끝으로 이동 (End)
