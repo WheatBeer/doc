@@ -1,6 +1,9 @@
 # docs
 documents to set environment
 
+## Vim & Tmux에서 Mac/리눅스 클립보드(clipboard)로 copy & paste 하기
+https://rampart81.github.io/post/vim-clipboard-share/
+
 ## Linux Console Shortcuts
 - Tab - 자동 완성
 - Ctrl-D - 로그아웃
