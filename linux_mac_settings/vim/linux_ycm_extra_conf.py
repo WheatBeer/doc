@@ -53,7 +53,7 @@ flags = [
         '/usr/include/x86_64-linux-gnu',
         '-isystem',
         '/usr/include',
-        '-I'
+        '-I/home/sungmin/Desktop/npusim/*'
         ]
 
 def FlagsForFile(filename):
