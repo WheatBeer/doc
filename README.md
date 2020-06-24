@@ -3,6 +3,7 @@ documents to set environment
 
 ## Vim & Tmux에서 Mac/리눅스 클립보드(clipboard)로 copy & paste 하기
 https://rampart81.github.io/post/vim-clipboard-share/
+https://unix.stackexchange.com/questions/131011/use-system-clipboard-in-vi-copy-mode-in-tmux
 
 ## Linux Console Shortcuts
 - Tab - 자동 완성
